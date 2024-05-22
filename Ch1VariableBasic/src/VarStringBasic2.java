@@ -1,6 +1,6 @@
 //class(코드)와 파일명이 동일해야한다
 import java.util.Scanner;
-
+//햄버거
 public class VarStringBasic2 {
 	public static void main(String[] args) {
 		//문자열
