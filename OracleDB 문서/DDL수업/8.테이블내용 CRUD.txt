@@ -1,0 +1,26 @@
+16.테이블내용 CRUD.txt
+
+1.테이블에 행을 추가하는 INSERT문 
+
+EXPRESSION
+
+INSERT INTO 테이블명(컬럼명 리스트) 묵시-DESC순으로 모든컬럼입력,명시-해당컬럼만
+VALUES (컬럼명 리스트에 넣은 VALUE LIST)
+
+INSERT INTO 테이블명(컬럼명 리스트)
+VALUES (전체 컬럼에 넣은 VALUE LIST)
+
+
+2.테이블의 내용을 수정하기 위한 UPDATE문
+
+표현식
+UPDATE 테이블명
+SET 컬럼명1 = 값1, 컬럼명2=값2,,,,
+WHERE 조건식;
+
+
+
+3.테이블의 불필요한 행을 삭제하는 DELETE문
+형식
+DELETE FROM 테이블명
+WHERE 조건식;
